@@ -12,9 +12,9 @@
 
 **[Adrian Cockroft](https://g.co/kgs/YQmtE9K)**, a key engineer behind Netflix’s shift from a monolithic to a microservices architecture, describes it as "a service-oriented architecture composed of loosely coupled elements that have bounded contexts."
 
-The term "loosely coupled" is crucial here. It means that each service operates independently, allowing for updates without affecting other services. If you find yourself needing to update multiple services simultaneously, they likely lack the necessary decoupling to qualify as true microservices.
+The term "loosely coupled" is key here. It means that each service operates independently, allowing for updates without affecting other services. If you find yourself needing to update multiple services simultaneously, they likely lack the necessary decoupling to qualify as true microservices.
 
-One common pitfall during this transition is database coupling, where multiple services rely on a single database. This can lead to complications, such as needing to change the database schema when updating a service. To avoid this, it's essential to separate databases for different services and embrace a denormalized approach. This separation not only enhances service independence but also streamlines updates and maintenance.
+One common pitfall during this transition is database coupling, where multiple services rely on a single database. This can lead to complications, such as needing to change the database schema when updating a service. To avoid this, it's important to separate databases for different services and embrace a denormalized approach. This separation not only allows for service independence but also streamlines updates and maintenance.
 
 Hear more from the experts:
 
