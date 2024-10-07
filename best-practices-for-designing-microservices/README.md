@@ -62,10 +62,13 @@ Treat servers, particularly those that run customer‑facing code, as interchang
 
 In groups, discuss and answer the following questions:
 
-`Q - Are they “aware” of the other microservices? `
+<br>
+
+`Are they “aware” of the other microservices?`
 
 <details>
 <summary>✅ Click to see our answer </summary>
+<br>
 
 Microservices don’t generally know about or acknowledge the existence of the other microservices that make up the application.
 
@@ -73,10 +76,13 @@ Microservices don’t generally know about or acknowledge the existence of the o
 
 <br>
 
-`Q - How do they connect and communicate? `
+<br>
+
+`How do they connect and communicate?`
 
 <details>
 <summary>✅ Click to see our answer </summary>
+<br>
 
 They integrate with other microservices and applications through language and platform-agnostic APIs (Application Programming Interfaces).
 
@@ -84,10 +90,13 @@ They integrate with other microservices and applications through language and pl
 
 <br>
 
-`Q - How do APIs work with these?`
+<br>
+
+`How do APIs work with these?`
 
 <details>
 <summary>✅ Click to see our answer </summary>
+<br>
 
 You can expose APIs for microservices as REST endpoints, WebHooks, or invoke them via lightweight messaging protocols like RabbitMQ. The most common approach involves an HTTP/REST API with JSON.
 
@@ -95,10 +104,13 @@ You can expose APIs for microservices as REST endpoints, WebHooks, or invoke the
 
 <br>
 
-`Q - Are REST API connections stable for microservices?`
+<br>
+
+`Are REST API connections stable for microservices?`
 
 <details>
 <summary>✅ Click to see our answer </summary>
+<br>
 
 The relative decoupling of microservices data connections reduces the chances of a single service causing a failure cascade that interferes with the operation of the entire system. Loose connections help avoid synchronous and blocking-calls from disrupting system performance.
 
@@ -106,10 +118,13 @@ The relative decoupling of microservices data connections reduces the chances of
 
 <br>
 
-`Q - Where do you run them?`
+<br>
+
+`Where do you run them?`
 
 <details>
 <summary>✅ Click to see our answer </summary>
+<br>
 
 Most developers agree that containerized environments are ideal for running microservices. While it’s possible to run microservices on a virtual machine, containers serve as a lighter-weight, faster, and more cost-effective way to virtualize a runtime environment for microservices.
 
@@ -117,10 +132,13 @@ Most developers agree that containerized environments are ideal for running micr
 
 <br>
 
-`Q - How do you manage and control resources for different ones?`
+<br>
+
+`How do you manage and control resources for different ones?`
 
 <details>
 <summary>✅ Click to see our answer </summary>
+<br>
 
 When running a container-based microservices architecture, developers use container orchestration tools to manage and control the distribution of server resources to different containers based on the needs of each of them.
 
