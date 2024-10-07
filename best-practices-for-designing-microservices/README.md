@@ -76,8 +76,6 @@ Microservices don’t generally know about or acknowledge the existence of the o
 
 <br>
 
-<br>
-
 `How do they connect and communicate?`
 
 <details>
@@ -87,8 +85,6 @@ Microservices don’t generally know about or acknowledge the existence of the o
 They integrate with other microservices and applications through language and platform-agnostic APIs (Application Programming Interfaces).
 
 </details>
-
-<br>
 
 <br>
 
@@ -104,8 +100,6 @@ You can expose APIs for microservices as REST endpoints, WebHooks, or invoke the
 
 <br>
 
-<br>
-
 `Are REST API connections stable for microservices?`
 
 <details>
@@ -115,8 +109,6 @@ You can expose APIs for microservices as REST endpoints, WebHooks, or invoke the
 The relative decoupling of microservices data connections reduces the chances of a single service causing a failure cascade that interferes with the operation of the entire system. Loose connections help avoid synchronous and blocking-calls from disrupting system performance.
 
 </details>
-
-<br>
 
 <br>
 
@@ -132,8 +124,6 @@ Most developers agree that containerized environments are ideal for running micr
 
 <br>
 
-<br>
-
 `How do you manage and control resources for different ones?`
 
 <details>
@@ -145,5 +135,3 @@ When running a container-based microservices architecture, developers use contai
 Since the resource needs of fluctuate, container orchestration involves setting limits and triggers that automate the distribution of resources according to changing load requirements. Kubernetes is the most popular tool for container orchestration. Other popular container orchestration tools include Docker Swarm and Apache Mesos.
 
 </details>
-
-<br>

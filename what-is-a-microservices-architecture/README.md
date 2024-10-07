@@ -7,19 +7,26 @@
 
 ![cinema microservices](./assets/cinema-microservices.png)
 
-<!-- Quote -->
-
-A microservice is a single self-contained unit which, together with many others, makes up a large application. By splitting your app into small units every part of it is independently deployable and scalable, can be written by different teams and in different programming languages and can be tested individually. — Max Stoiber
-
-<!-- Quote -->
-
-A microservice architecture means that your app is made up of lots of smaller, independent applications capable of running in their own memory space and scaling independently from each other across potentially many separate machines. — Eric Elliot
 
 ## What is a Microservices Architecture?
 
-**[Adrian Cockroft](https://g.co/kgs/YQmtE9K)**, an engineer who oversaw Netflix transition from a monolithic to a microservices architecture defines it as a service‑oriented architecture composed of loosely coupled elements that have bounded contexts.
+**[Adrian Cockroft](https://g.co/kgs/YQmtE9K)**, a key engineer behind Netflix’s shift from a monolithic to a microservices architecture, describes it as "a service-oriented architecture composed of loosely coupled elements that have bounded contexts."
 
-Loosely coupled means that you can update the services independently. Updating one service doesn’t require changing any other services. If you have a bunch of small, specialized services but still have to update them together, they’re not microservices because they’re not loosely coupled. One kind of coupling that people tend to overlook as they transition to a microservices architecture is database coupling, where all services talk to the same database and updating a service means changing the schema. You need to split the database up and denormalize it.
+The term "loosely coupled" is crucial here. It means that each service operates independently, allowing for updates without affecting other services. If you find yourself needing to update multiple services simultaneously, they likely lack the necessary decoupling to qualify as true microservices.
+
+One common pitfall during this transition is database coupling, where multiple services rely on a single database. This can lead to complications, such as needing to change the database schema when updating a service. To avoid this, it's essential to separate databases for different services and embrace a denormalized approach. This separation not only enhances service independence but also streamlines updates and maintenance.
+
+Hear more from the experts:
+
+<blockquote class="quote">
+  A microservice is a single self-contained unit which, together with many others, makes up a large application. By splitting your app into small units every part of it is independently deployable and scalable, can be written by different teams and in different programming languages and can be tested individually.
+   <span>Max Stoiber</span>
+</blockquote>
+
+<blockquote class="quote">
+  A microservice architecture means that your app is made up of lots of smaller, independent applications capable of running in their own memory space and scaling independently from each other across potentially many separate machines.
+   <span>Eric Elliot</span>
+</blockquote>
 
 <br>
 
