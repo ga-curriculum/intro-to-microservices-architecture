@@ -5,6 +5,5 @@
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [BIO - Adrian Cockroft](https://g.co/kgs/YQmtE9K)
+

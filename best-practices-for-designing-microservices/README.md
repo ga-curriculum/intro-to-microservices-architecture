@@ -66,11 +66,9 @@ In groups, discuss and answer the following questions:
 
 <details>
 <summary>✅ Click to see our answer </summary>
-<hr>
 
 Microservices don’t generally know about or acknowledge the existence of the other microservices that make up the application.
 
-<hr>
 </details>
 
 <br>
@@ -79,11 +77,9 @@ Microservices don’t generally know about or acknowledge the existence of the o
 
 <details>
 <summary>✅ Click to see our answer </summary>
-<hr>
 
 They integrate with other microservices and applications through language and platform-agnostic APIs (Application Programming Interfaces).
 
-<hr>
 </details>
 
 <br>
@@ -92,11 +88,9 @@ They integrate with other microservices and applications through language and pl
 
 <details>
 <summary>✅ Click to see our answer </summary>
-<hr>
 
 You can expose APIs for microservices as REST endpoints, WebHooks, or invoke them via lightweight messaging protocols like RabbitMQ. The most common approach involves an HTTP/REST API with JSON.
 
-<hr>
 </details>
 
 <br>
@@ -105,11 +99,9 @@ You can expose APIs for microservices as REST endpoints, WebHooks, or invoke the
 
 <details>
 <summary>✅ Click to see our answer </summary>
-<hr>
 
 The relative decoupling of microservices data connections reduces the chances of a single service causing a failure cascade that interferes with the operation of the entire system. Loose connections help avoid synchronous and blocking-calls from disrupting system performance.
 
-<hr>
 </details>
 
 <br>
@@ -118,11 +110,9 @@ The relative decoupling of microservices data connections reduces the chances of
 
 <details>
 <summary>✅ Click to see our answer </summary>
-<hr>
 
 Most developers agree that containerized environments are ideal for running microservices. While it’s possible to run microservices on a virtual machine, containers serve as a lighter-weight, faster, and more cost-effective way to virtualize a runtime environment for microservices.
 
-<hr>
 </details>
 
 <br>
@@ -131,13 +121,11 @@ Most developers agree that containerized environments are ideal for running micr
 
 <details>
 <summary>✅ Click to see our answer </summary>
-<hr>
 
 When running a container-based microservices architecture, developers use container orchestration tools to manage and control the distribution of server resources to different containers based on the needs of each of them.
 
 Since the resource needs of fluctuate, container orchestration involves setting limits and triggers that automate the distribution of resources according to changing load requirements. Kubernetes is the most popular tool for container orchestration. Other popular container orchestration tools include Docker Swarm and Apache Mesos.
 
-<hr>
 </details>
 
 <br>

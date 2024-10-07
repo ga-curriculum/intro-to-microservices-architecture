@@ -28,20 +28,17 @@ Loosely coupled means that you can update the services independently. Updating o
   <span class="minutes">10</span>
 </div>
 
-<br>
-
 Let's discuss some of the benefits of using this style of architecture:
 
-| **Benefits**                                    | **Details**                                                                 |
-|---------------------------------------------|-----------------------------------------------------------------------------|
-| **Faster application startup times**        | Microservices allow applications to start up more quickly since each service is smaller and starts independently. |
-| **Quicker and more efficient deployments**  | Deployments are faster and more streamlined because individual services can be deployed separately without affecting the entire system. |
-| **Independent service deployment**          | Each microservice can be deployed on its own, allowing for frequent updates and new versions without downtime for other services. |
-| **Easier to scale and improve performance** | Microservices can be scaled individually, allowing teams to allocate more resources to specific services, leading to better overall performance. |
-| **No long-term commitment to a technology stack** | Each new microservice can be built using different technologies, providing flexibility to choose the best stack for the task. |
-| **More organized and focused services**     | Microservices are typically more organized, as each one focuses on a specific job, making the architecture easier to manage. |
-| **Greater flexibility for reconfiguration** | Decoupled microservices can be reconfigured for different applications, such as serving both web clients and public APIs, without impacting the core system. |
-
+| **Benefits**                                      | **Details**                                                                                                                                                  |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Faster application startup times**              | Microservices allow applications to start up more quickly since each service is smaller and starts independently.                                            |
+| **Quicker and more efficient deployments**        | Deployments are faster and more streamlined because individual services can be deployed separately without affecting the entire system.                      |
+| **Independent service deployment**                | Each microservice can be deployed on its own, allowing for frequent updates and new versions without downtime for other services.                            |
+| **Easier to scale and improve performance**       | Microservices can be scaled individually, allowing teams to allocate more resources to specific services, leading to better overall performance.             |
+| **No long-term commitment to a technology stack** | Each new microservice can be built using different technologies, providing flexibility to choose the best stack for the task.                                |
+| **More organized and focused services**           | Microservices are typically more organized, as each one focuses on a specific job, making the architecture easier to manage.                                 |
+| **Greater flexibility for reconfiguration**       | Decoupled microservices can be reconfigured for different applications, such as serving both web clients and public APIs, without impacting the core system. |
 
 <br>
 
@@ -50,14 +47,12 @@ Let's discuss some of the benefits of using this style of architecture:
   <span class="minutes">10</span>
 </div>
 
-<br>
-
 Let's discuss some of the challenges that come with using a microservices architecture:
 
-| **Challenges**                                    | **Details**                                                                 |
-|---------------------------------------------|-----------------------------------------------------------------------------|
-| **Developers must manage increased complexity** | Microservices add complexity, as developers must manage a distributed system with multiple services communicating across networks. |
-| **Operational complexity in production**    | Managing and deploying a large number of services in production can be more complex, requiring sophisticated monitoring and orchestration tools. |
-| **Unforeseen cross-cutting concerns**      | During implementation, teams may encounter issues like security, logging, or data consistency that weren’t anticipated during the design phase. |
+| **Challenges**                                  | **Details**                                                                                                                                      |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Developers must manage increased complexity** | Microservices add complexity, as developers must manage a distributed system with multiple services communicating across networks.               |
+| **Operational complexity in production**        | Managing and deploying a large number of services in production can be more complex, requiring sophisticated monitoring and orchestration tools. |
+| **Unforeseen cross-cutting concerns**           | During implementation, teams may encounter issues like security, logging, or data consistency that weren’t anticipated during the design phase.  |
 
 <br>
