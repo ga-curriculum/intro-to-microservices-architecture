@@ -37,7 +37,7 @@ Hear more from the experts:
 
 Let's discuss some of the benefits of using this style of architecture:
 
-| **Benefits**                                      | **Details**                                                                                                                                                  |
+| **Benefits**                                      | **How?**                                                                                                                                                  |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Faster application startup times**              | Microservices allow applications to start up more quickly since each service is smaller and starts independently.                                            |
 | **Quicker and more efficient deployments**        | Deployments are faster and more streamlined because individual services can be deployed separately without affecting the entire system.                      |
@@ -56,7 +56,7 @@ Let's discuss some of the benefits of using this style of architecture:
 
 Let's discuss some of the challenges that come with using a microservices architecture:
 
-| **Challenges**                                  | **Details**                                                                                                                                      |
+| **Challenges**                                  | **How?**                                                                                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Developers must manage increased complexity** | Microservices add complexity, as developers must manage a distributed system with multiple services communicating across networks.               |
 | **Operational complexity in production**        | Managing and deploying a large number of services in production can be more complex, requiring sophisticated monitoring and orchestration tools. |
