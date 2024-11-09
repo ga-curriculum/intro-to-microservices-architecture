@@ -5,4 +5,4 @@
 
 ## Setup
 
-No setup required for this lesson. 
+This Lesson does not require any setup or coding environment.
