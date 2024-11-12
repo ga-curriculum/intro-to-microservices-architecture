@@ -7,7 +7,7 @@
 
 ## Best Practices for Designing
 
-As we explore the world of microservices design, it’s essential to shift our mindset from traditional monolithic architectures. Microservices offer flexibility and agility, but they also come with unique challenges. In this section, we’ll explore some key best practices that will help you harness the full potential of microservices.
+As we explore the world of microservices design, it’s important to shift our mindset from traditional monolithic architectures. Microservices offer flexibility and agility, but they also come with unique challenges. In this section, we’ll explore some key best practices that will help you harness the full potential of microservices.
 
 By adopting a few best practices, you can create a system that not only scales effectively but also thrives under change.
 
