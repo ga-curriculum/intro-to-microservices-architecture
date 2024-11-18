@@ -5,7 +5,7 @@
 
 **Learning objective:** By the end of this lesson, learners will be able to design microservices architecture using best practices, such as independent data stores, containerization, and stateless servers, and explain how microservices communicate and integrate within a distributed system.
 
-## Best Practices for Designing
+## Best Practices
 
 As we explore the world of microservices design, it’s important to shift our mindset from traditional monolithic architectures. Microservices offer flexibility and agility, but they also come with unique challenges. In this section, we’ll explore some key best practices that will help you harness the full potential of microservices.
 

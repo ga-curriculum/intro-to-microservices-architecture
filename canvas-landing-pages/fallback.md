@@ -10,10 +10,11 @@ In this module, learners will explore the fundamentals of microservices architec
 
 ## Content
 
-| Lesson                                                                                                | Skills                                                                                                                                                                                                        |
-| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [What is a Microservices Architecture?](../what-is-a-microservices-architecture/README.md)            | Understanding microservices architecture, service decoupling, scaling microservices, deployment independence                                                                                                  |
-| [Best Practices for Designing Microservices](../best-practices-for-designing-microservices/README.md) | Applying design principles for microservices, implementing effective service communication, managing data consistency, addressing cross-cutting concerns, and ensuring scalability and resilience of services |
+| Lesson                                                                                                | Est. Delivery Time | Skills                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [What is a Microservices Architecture?](../what-is-a-microservices-architecture/README.md)            | 30 min             | Understanding microservices architecture, service decoupling, scaling microservices, deployment independence                                                                                                  |
+| [Best Practices for Designing Microservices](../best-practices-for-designing-microservices/README.md) | 20 min             | Applying design principles for microservices, implementing effective service communication, managing data consistency, addressing cross-cutting concerns, and ensuring scalability and resilience of services |
+| **Total Content**                                                                                     | 50 min             |                                                                                                                                                                                                               |
 
 ## References
 
