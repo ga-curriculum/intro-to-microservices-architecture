@@ -27,8 +27,8 @@ In this module, learners will explore the fundamentals of microservices architec
 
 ### Github Pages Sites
 
-- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-microservices-architecture/canvas-landing-pages/fallback)
-- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-microservices-architecture/canvas-landing-pages/mea)
+- [Default Landing Page](https://ga-curriculum.github.io/intro-to-microservices-architecture/canvas-landing-pages/fallback)
+- [MEA - Modern Engineering](https://ga-curriculum.github.io/intro-to-microservices-architecture/canvas-landing-pages/mea)
 
 ### Resources
 
